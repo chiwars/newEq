@@ -22,12 +22,12 @@
                     <field name="OP">EQ</field>
                     <value name="A">
                       <block type="math_number" id="105">
-                        <field name="NUM">1</field>
+                        <field name="NUM">10</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="106">
-                        <field name="NUM">2</field>
+                        <field name="NUM">100</field>
                       </block>
                     </value>
                   </block>
@@ -64,9 +64,6 @@
                                 </value>
                               </block>
                             </value>
-                            <next>
-                              <block type="movement_stop" id="160"></block>
-                            </next>
                           </block>
                         </next>
                       </block>
