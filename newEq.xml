@@ -68,8 +68,18 @@
                                           </block>
                                         </value>
                                         <value name="B">
-                                          <block type="math_number" id="305">
-                                            <field name="NUM">20</field>
+                                          <block type="math_arithmetic" id="526" inline="true">
+                                            <field name="OP">ADD</field>
+                                            <value name="A">
+                                              <block type="math_number" id="527">
+                                                <field name="NUM">20</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="math_number" id="528">
+                                                <field name="NUM">20</field>
+                                              </block>
+                                            </value>
                                           </block>
                                         </value>
                                       </block>
