@@ -88,7 +88,7 @@
                                       <block type="oled_setcursor" id="618" inline="true">
                                         <value name="STARTX">
                                           <block type="math_number" id="619">
-                                            <field name="NUM">70</field>
+                                            <field name="NUM">100</field>
                                           </block>
                                         </value>
                                         <value name="STARTY">
@@ -98,7 +98,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="621">
-                                            <field name="TEXT">right side</field>
+                                            <field name="TEXT"></field>
                                             <next>
                                               <block type="oled_drawnumber" id="645" inline="true">
                                                 <value name="NUMBER">
@@ -107,7 +107,18 @@
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="multimedia_doupdate" id="351"></block>
+                                                  <block type="oled_setcursor" id="653" inline="true">
+                                                    <value name="STARTX">
+                                                      <block type="math_number" id="654">
+                                                        <field name="NUM">50</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="STARTY">
+                                                      <block type="math_number" id="655">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
                                                 </next>
                                               </block>
                                             </next>
@@ -132,4 +143,5 @@
       </block>
     </statement>
   </block>
+  <block type="multimedia_doupdate" id="351" x="545" y="475"></block>
 </xml>
