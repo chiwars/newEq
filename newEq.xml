@@ -103,7 +103,7 @@
                                               <block type="oled_drawnumber" id="645" inline="true">
                                                 <value name="NUMBER">
                                                   <block type="sensor_light" id="652">
-                                                    <field name="LIGHT">LEFT</field>
+                                                    <field name="LIGHT">RIGHT</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -122,7 +122,54 @@
                                                       <block type="oled_drawtext" id="656">
                                                         <field name="TEXT">right side</field>
                                                         <next>
-                                                          <block type="multimedia_doupdate" id="351"></block>
+                                                          <block type="oled_setcursor" id="657" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="658">
+                                                                <field name="NUM">80</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="659">
+                                                                <field name="NUM">20</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_drawtext" id="660">
+                                                                <field name="TEXT"></field>
+                                                                <next>
+                                                                  <block type="oled_drawnumber" id="661" inline="true">
+                                                                    <value name="NUMBER">
+                                                                      <block type="sensor_light" id="662">
+                                                                        <field name="LIGHT">LEFT</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="oled_setcursor" id="663" inline="true">
+                                                                        <value name="STARTX">
+                                                                          <block type="math_number" id="664">
+                                                                            <field name="NUM">10</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="STARTY">
+                                                                          <block type="math_number" id="665">
+                                                                            <field name="NUM">20</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="oled_drawtext" id="666">
+                                                                            <field name="TEXT">left side</field>
+                                                                            <next>
+                                                                              <block type="multimedia_doupdate" id="351"></block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
                                                         </next>
                                                       </block>
                                                     </next>
