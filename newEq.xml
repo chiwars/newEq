@@ -119,7 +119,12 @@
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="multimedia_doupdate" id="351"></block>
+                                                      <block type="oled_drawtext" id="656">
+                                                        <field name="TEXT">right side</field>
+                                                        <next>
+                                                          <block type="multimedia_doupdate" id="351"></block>
+                                                        </next>
+                                                      </block>
                                                     </next>
                                                   </block>
                                                 </next>
