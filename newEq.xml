@@ -2,7 +2,9 @@
   <block type="controls_whileUntil" id="372" inline="false" x="237" y="-28">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_battery" id="494"></block>
+      <block type="sensor_button" id="501">
+        <field name="OBJECT">ENTER</field>
+      </block>
     </value>
     <statement name="DO">
       <block type="multimedia_stopupdate" id="210">
