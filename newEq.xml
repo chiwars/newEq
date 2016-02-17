@@ -118,6 +118,9 @@
                                                         <field name="NUM">10</field>
                                                       </block>
                                                     </value>
+                                                    <next>
+                                                      <block type="multimedia_doupdate" id="351"></block>
+                                                    </next>
                                                   </block>
                                                 </next>
                                               </block>
@@ -143,5 +146,4 @@
       </block>
     </statement>
   </block>
-  <block type="multimedia_doupdate" id="351" x="545" y="475"></block>
 </xml>
